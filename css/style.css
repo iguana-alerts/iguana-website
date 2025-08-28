@@ -264,7 +264,7 @@ nav ul li a {
 .header-content h1 {
   /* font-size: 40px; */
   /* font-weight: 700; */
-  color: red;
+  color: #4902BE;
   margin-bottom: 10px;
   /* text-transform: uppercase; */
   /* color: white; */
@@ -363,9 +363,9 @@ nav ul li a {
 
 
 
-  border: 1px solid #ff453a;
+  border: 1px solid #4902BE;
   /* border-color: #black; */
-  box-shadow: 10px 10px #ff453a;
+  box-shadow: 10px 10px #4902BE;
 }
 
 #about .about-descr .p-heading {
@@ -742,7 +742,7 @@ nav ul li a {
 }
 .color-one {
     /* screenshot color */
-    /* background-color: #ff453a; */
+    /* background-color: #4902BE; */
     background-color: white;
 }
 
