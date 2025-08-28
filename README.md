@@ -1,9 +1,9 @@
-# mideo.app
+# instagramunfollowers.com
 
-Landing page for [Mideo](https://mideo.app), an app for iOS and Android.
+Landing page for [Iguana](https://instagramunfollowers), an app for iOS and coming soon to Android.
 
-Check it out here: [Mideo - Capture Videos While Playing Music](https://mideo.app)
+Check it out here: [Iguana - Instagram Unfollowers](https://instagramunfollowers)
 
-App Store for iOS: https://itunes.apple.com/us/app/id1358135284
+App Store for iOS: https://apps.apple.com/app/apple-store/id6741834638?pt=121593755&ct=iguana-website&mt=8
 
-Google Play Store for Android: https://play.google.com/store/apps/details?id=io.synople.mideo
+Google Play Store for Android: (coming soon)
