@@ -20,44 +20,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
       </noscript>
 
-      <style>
-      /* Critical CSS for above-the-fold content (navbar excluded) */
-
-      /* Reset & basic typography */
-      html, body { margin:0; padding:0; font-family: 'Poppins', sans-serif; color: black; background: #fff; }
-      h1,h2,h3,h4,h5,h6,p { margin:0; padding:0; }
-
-      /* Header / hero section */
-      #header { min-height:80vh; display:flex; align-items:center; justify-content:center; text-align:center; width:100%; padding-top:80px; }
-      #header .header-content { max-width:800px; margin:0 auto; }
-      #header h1 { color:#4902BE; font-size:2rem; margin-bottom:0.5em; }
-      #header h6 { color:black; font-weight:500; margin-bottom:0.5em; line-height:1.5em; }
-      #header a { color:#4902BE; text-decoration:none; transition: color 0.3s ease; }
-      #header a:hover { color:#bca569; text-decoration:underline; }
-
-      /* Responsive fixes */
-      @media (max-width: 768px) {
-        #header h1 { font-size:1.5rem; }
-      }
-      </style>
-
-  <!-- Load remaining CSS asynchronously -->
-  <link rel="preload" href="lib/bootstrap/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="lib/ionicons/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="lib/owlcarousel/assets/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="lib/magnific-popup/magnific-popup.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="lib/hover/hover.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="lib/hover/hover.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-  </noscript>
+<!-- Regular CSS loading, no async/preload -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+<link href="lib/hover/hover.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
 
   <!-- favicon -->
   <link rel="shortcut icon" href="images/app-icon.png">
