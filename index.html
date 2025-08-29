@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <!-- meta -->
   <meta charset="utf-8">
@@ -8,24 +7,57 @@
 
   <title>How to See Who Unfollowed You on Instagram - Iguana Instagram Unfollowers App</title>
   <meta name="description" content="Here’s how to see who unfollowed you on Instagram with the Iguana app. Iguana is the iOS app that lets you track Instagram unfollowers.">
+      
+      <meta property="og:title" content="How to See Who Unfollowed You on Instagram - Iguana App">
+      <meta property="og:description" content="Here’s how to see who unfollowed you on Instagram with the Iguana app. No login required!">
+      <meta property="og:image" content="https://instagramunfollowers.com/images/app-icon.png">
+      <meta property="og:url" content="https://instagramunfollowers.com/">
+      <meta property="og:type" content="website">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <!-- Google Fonts: preconnect + display=swap -->
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+      </noscript>
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <style>
+      /* Critical CSS for above-the-fold content (navbar excluded) */
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="lib/hover/hover.min.css" rel="stylesheet">
+      /* Reset & basic typography */
+      html, body { margin:0; padding:0; font-family: 'Poppins', sans-serif; color: black; background: #fff; }
+      h1,h2,h3,h4,h5,h6,p { margin:0; padding:0; }
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+      /* Header / hero section */
+      #header { min-height:80vh; display:flex; align-items:center; justify-content:center; text-align:center; width:100%; padding-top:80px; }
+      #header .header-content { max-width:800px; margin:0 auto; }
+      #header h1 { color:#4902BE; font-size:2rem; margin-bottom:0.5em; }
+      #header h6 { color:black; font-weight:500; margin-bottom:0.5em; line-height:1.5em; }
+      #header a { color:#4902BE; text-decoration:none; transition: color 0.3s ease; }
+      #header a:hover { color:#bca569; text-decoration:underline; }
 
-  <!-- Responsive css -->
-  <link href="css/responsive.css" rel="stylesheet">
+      /* Responsive fixes */
+      @media (max-width: 768px) {
+        #header h1 { font-size:1.5rem; }
+      }
+      </style>
+
+  <!-- Load remaining CSS asynchronously -->
+  <link rel="preload" href="lib/bootstrap/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="lib/ionicons/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="lib/owlcarousel/assets/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="lib/magnific-popup/magnific-popup.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="lib/hover/hover.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="lib/hover/hover.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+  </noscript>
 
   <!-- favicon -->
   <link rel="shortcut icon" href="images/app-icon.png">
@@ -277,18 +309,16 @@
   <!-- End section footer -->
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/typed/typed.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
-  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="lib/jquery/jquery.min.js" defer></script>
+  <script src="lib/jquery/jquery-migrate.min.js" defer></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="lib/typed/typed.js" defer></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js" defer></script>
+  <script src="lib/isotope/isotope.pkgd.min.js" defer></script>
+  <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js" defer></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js" defer></script>
+  <script src="js/main.js" defer></script>
 
   <!-- JSON-LD markup -->
   <script type="application/ld+json">
