@@ -314,9 +314,10 @@ nav ul li a {
 }
 
 #about ol li {
-    float: left;
+    float: none;
     text-align: left;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 #about {
