@@ -264,7 +264,7 @@ nav ul li a {
 .header-content h1 {
   /* font-size: 40px; */
   /* font-weight: 700; */
-  color: #4902BE;
+  color: #71BC78;
   margin-bottom: 10px;
   /* text-transform: uppercase; */
   /* color: white; */
@@ -364,9 +364,9 @@ nav ul li a {
 
 
 
-  border: 1px solid #4902BE;
+  border: 1px solid #71BC78;
   /* border-color: #black; */
-  box-shadow: 10px 10px #4902BE;
+  box-shadow: 10px 10px #71BC78;
 }
 
 #about .about-descr .p-heading {
@@ -664,7 +664,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer h2 {
-    color: #4902BE;
+    color: #71BC78;
     margin: 20px;
 }
 
@@ -743,7 +743,7 @@ nav ul li a {
 }
 .color-one {
     /* screenshot color */
-    /* background-color: #4902BE; */
+    /* background-color: #71BC78; */
     background-color: white;
 }
 
